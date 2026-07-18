@@ -14,13 +14,9 @@ C:\Projects\baif_s2s\backend\venv\Lib\site-packages\torch\nn\modules\conv.py:306
   return F.conv1d(input, weight, bias, self.stride,
 STATUS: complete
 SOURCE: अन्ना दात्यासाटि अन्ना त्याग अतिसे अवगड़ असी जबापदरी गेवूं आज यॉवक अमदार रोहीद द
-TRANSLATED: Today, I am going to give food to the food provider, I am going to give food to 
-CONFIDENCE: 0.7232
+TRANSLATED: Khartar Gali to Delhi is a very bad government today, jawan jai kisaan ashe gosh
+CONFIDENCE: 0.7174
 AUDIO: ./outputs\job1_tts.wav
-Traceback (most recent call last):
-  File "<string>", line 1, in <module>
-  File "C:\Projects\baif_s2s\backend\venv\Lib\site-packages\pydantic\main.py", line 792, in __getattr__
-    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
-AttributeError: 'TranslationResponse' object has no attribute 'source_srt_path'
-
-(venv) C:\Projects\baif_s2s\backend>
+SRC SRT: ./outputs\job1_mr.srt
+TGT SRT: ./outputs\job1_en.srt
+TIMINGS: asr_seconds=326.521 translation_seconds=14.538 tts_seconds=4.67 total_seconds=368.127
